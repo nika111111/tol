@@ -1,1 +1,105 @@
+body {
 
+    background-color: rgb(255, 255, 255);
+    font-family:font-style: italic;
+
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family:font-style: italic;
+}
+
+i {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 25px;
+    color:navy;
+    font-family:font-style: italic;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px dashed navy;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: royalblue;
+    margin: 30px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color:rgb(35, 35, 112);
+
+
+}
+
+.gallery p {
+
+    border: 1px solid rgb(35, 35, 112);
+    color:rgb(35, 35, 112);
+    text-align: center;
+}
+
+.text{
+    width:300px ;
+    text-align: right;
+
+}
+    
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(140, 128, 255);
+    padding: 0,5px;
+    font-size: 20px;
+    text-decoration: none;
+    color:navy;
+}
+
+header p{
+    color:white;
+    font-size: 30px;
+    padding-left:  80px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content:space-evenly;
+
+    background-color: rgb(140, 128, 255);
+    padding: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color:rgb(35, 35, 112);
+}
+
+footer p{
+    float:left;
+}
